@@ -46,11 +46,11 @@ const int DHTPIN = 4;
 DHT dht(DHTPIN, DHTTYPE);
 
 // --- Credenciales de la red WiFi ---
-const char* ssid = "FAMILIA-GONZALEZ";
-const char* pass = "1002391401"; // ¡Revisa bien la contraseña!
+const char* ssid = ""; //nombre de la red wifi
+const char* pass = ""; // ¡Revisa bien la contraseña!
 
 // --- Definiciones para la conexión a Termux ---
-const char* serverIp = "192.168.1.6"; // IP de tu teléfono con Termux
+const char* serverIp = ""; // IP de tu teléfono con Termux
 const int serverPort = 5000;
 
 // --- Configuración NTP para la hora en tiempo real ---
